@@ -6,11 +6,11 @@
 #include <string>
 #include <list>
 
-// Number of caracters
+// Number of characters
 #define SIZE_LIST 28
 
 /**
- * @brief Compact Trie works as Spell Checker.
+ * @brief Compact Trie Tree works as a spell checker.
  * 
  */
 class Trie {
