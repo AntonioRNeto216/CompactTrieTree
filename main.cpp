@@ -36,12 +36,12 @@ void getAndInsertTrieData(Trie &trie) {
 
     do {
         std::cout << " --- Options --- " << std::endl;
-        std::cout << " (2) - English Words." << std::endl;
-        std::cout << " (1) - Portuguese Words." << std::endl;
-        std::cout << " (0) - Exit." << std::endl;
+        std::cout << " Press (2) - English Words." << std::endl;
+        std::cout << " Press (1) - Portuguese Words." << std::endl;
+        std::cout << " Press (0) - Exit." << std::endl;
         std::cout << " Your choice: ";
         std::cin >> choice;
-    } while(choice < 0 && choice > 2);
+    } while(choice < 0 || choice > 2);
 
     if (choice == 0)
         exit(0);
